@@ -1,0 +1,110 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+  color: white;
+
+
+}
+body {
+  background-color: black;
+}
+.pagecontainer {
+  display: flex;
+  justify-content: center;
+}
+.sitecontainer {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: flex-end; */
+  width: 960px;
+  /* height: 960px; */
+  /* border: 1px solid white; */
+}
+.logocontainer {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 6rem;
+  height: 2.82rem;
+  /* border: 1px solid white; */
+
+}
+.logoimg img {
+  height: 1.5rem;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  /* margin-top: 0.66rem;
+  margin-bottom: 0.66rem; */
+
+
+}
+.logotext {
+  /* display: flex;
+  align-items: center; */
+  font-size: 1rem;
+  text-transform: uppercase;
+  /* margin-top: 0.66rem;
+  margin-bottom: 0.66rem; */
+
+
+}
+.splashcontainer {
+  display: flex;
+
+  align-items: center;
+  height: 25rem;
+  width: 100%;
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  background-position: center;
+  /* border: 1px solid pink; */
+  /* margin-left: 6rem; */
+}
+.splashbox {
+  display: flex;
+
+
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 20rem;
+  /* height: 45%; */
+  background-color: black;
+  /* border: 1px dotted white; */
+  margin-left: 6rem;
+  margin-top: 7rem;
+
+
+}
+.splashboxsmallheader {
+
+  font-size:  1rem;
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 3rem;
+  margin-bottom: 0.25rem;
+  /* margin-right: 3rem; */
+  text-transform: uppercase;
+
+
+}
+.splashboxlargeheader {
+
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-bottom: 0.25rem;
+  /* margin-right: 3rem; */
+  text-transform: uppercase;
+
+
+}
+.splashboxlargeheader2 {
+
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 3rem;
+  margin-bottom: 2rem;
+  /* margin-right: 3rem; */
+  text-transform: uppercase;
+
+
+}
