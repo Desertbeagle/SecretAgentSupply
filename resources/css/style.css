@@ -1,3 +1,5 @@
+/* Universals */
+
 html {
   font-family: Helvetica;
   font-size: 18px;
@@ -8,14 +10,17 @@ html {
 body {
   background-color: black;
 }
-.pagecontainer {
-  display: flex;
-  justify-content: center;
-}
 a {
   text-decoration: none;
   color: white;
 }
+
+/* Page/site containers */
+.pagecontainer {
+  display: flex;
+  justify-content: center;
+}
+
 .sitecontainer {
   display: flex;
   flex-direction: column;
@@ -24,6 +29,10 @@ a {
   /* height: 960px; */
   /* border: 1px solid white; */
 }
+
+/* Logo/header */
+
+
 .logocontainer {
   display: inline-flex;
   align-items: center;
@@ -51,6 +60,9 @@ a {
 
 
 }
+
+/* splash container */
+
 .splashcontainer {
   display: flex;
 
@@ -112,6 +124,8 @@ a {
 
 
 }
+/* nav container */
+
 .navcontainer {
   display: inline-flex;
   justify-content: space-around;
@@ -122,4 +136,50 @@ a {
   background-color: firebrick;
   padding-left: 4.5rem;
   padding-right: 6rem;
+  /* margin-bottom: 3rem; */
+}
+
+/* Products Container */
+.productswrapper {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+}
+.productscontainer {
+
+  display: flex;
+  background-color: white;
+  /* height: auto; */
+  justify-content: space-between;
+  border: 1px solid red;
+  width: 77%;
+  height: auto;
+  overflow: hidden;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* overflow: hidden; */
+  /* padding-left: 6rem; */
+}
+.product {
+
+  display: flex;
+  /* padding: 10px; */
+  justify-content: center;
+  border: 4px solid black;
+  max-width: 30%;
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  overflow: hidden;
+
+}
+.product img {
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
 }
