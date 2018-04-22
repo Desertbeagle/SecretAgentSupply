@@ -117,7 +117,8 @@ a {
   justify-content: space-around;
   align-items: center;
   height: 2.82rem;
-  border: 2px solid red;
+  width: auto;
+  /* border: 2px solid red; */
   background-color: firebrick;
   padding-left: 4.5rem;
   padding-right: 6rem;
