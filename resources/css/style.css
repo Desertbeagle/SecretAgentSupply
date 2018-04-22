@@ -24,10 +24,8 @@ a {
 .sitecontainer {
   display: flex;
   flex-direction: column;
-  /* justify-content: flex-end; */
   width: 960px;
-  /* height: 960px; */
-  /* border: 1px solid white; */
+
 }
 
 /* Logo/header */
@@ -38,26 +36,20 @@ a {
   align-items: center;
   margin-left: 6rem;
   height: 2.82rem;
-  /* border: 1px solid white; */
+
 
 }
 .logoimg img {
   height: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 1rem;
-  /* margin-top: 0.66rem;
-  margin-bottom: 0.66rem; */
 
 
 }
 .logotext {
-  /* display: flex;
-  align-items: center; */
+
   font-size: 1rem;
   text-transform: uppercase;
-  /* margin-top: 0.66rem;
-  margin-bottom: 0.66rem; */
-
 
 }
 
@@ -72,19 +64,13 @@ a {
   background-image: url("../images/moto.jpeg");
   background-size: cover;
   background-position: center;
-  /* border: 1px solid pink; */
-  /* margin-left: 6rem; */
+
 }
 .splashbox {
   display: flex;
-
-
   flex-direction: column;
-  /* justify-content: center; */
   width: 20rem;
-  /* height: 45%; */
   background-color: black;
-  /* border: 1px dotted white; */
   margin-left: 6rem;
   margin-top: 7rem;
 
@@ -97,7 +83,6 @@ a {
   margin-top: 2rem;
   margin-left: 3rem;
   margin-bottom: 0.25rem;
-  /* margin-right: 3rem; */
   text-transform: uppercase;
 
 
@@ -108,7 +93,6 @@ a {
   font-weight: bold;
   margin-left: 3rem;
   margin-bottom: 0.25rem;
-  /* margin-right: 3rem; */
   text-transform: uppercase;
 
 
@@ -119,16 +103,16 @@ a {
   font-weight: bold;
   margin-left: 3rem;
   margin-bottom: 2rem;
-  /* margin-right: 3rem; */
   text-transform: uppercase;
 
 
 }
 /* nav container */
+
 .navwrapper {
   display: flex;
   justify-content: center;
-  /* border: 2px dotted white; */
+
 }
 
 .navcontainer {
@@ -137,14 +121,14 @@ a {
   align-items: center;
   height: 2.82rem;
   width: 100%;
-  /* border: 2px solid red; */
   background-color: firebrick;
   padding-left: 6rem;
   padding-right: 6rem;
-  /* margin-bottom: 3rem; */
+
 }
 
 /* Products Container */
+
 .productswrapper {
   display: flex;
   justify-content: center;
@@ -157,40 +141,29 @@ a {
   display: flex;
   flex-wrap: wrap;
   background-color: white;
-  /* height: auto; */
   justify-content: space-between;
-  border: 1px solid red;
   width: 77%;
-  height: auto;
   overflow: hidden;
   padding-top: 3rem;
   padding-bottom: 3rem;
   overflow: hidden;
-  /* overflow: hidden; */
-  /* padding-left: 6rem; */
+
 }
 .product {
 
   display: flex;
-  /* flex-wrap: wrap; */
-  /* padding: 10px; */
   justify-content: center;
   align-items: center;
   border: 4px solid black;
   max-width: 30%;
   width: 30%;
   height: 9rem;
-  /* height: 9rem; */
-  /* padding-top: 2rem;
-  padding-bottom: 2rem; */
-
   overflow: hidden;
 
 }
 .product img {
   height: auto;
   width: 7rem;
-  /* min-width: 0; */
   display: block;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -200,18 +173,12 @@ a {
 .productbottom {
 
   display: flex;
-  /* flex-wrap: wrap; */
-  /* padding: 10px; */
   justify-content: center;
   align-items: center;
   border: 4px solid black;
   max-width: 35%;
   width: 35%;
   height: 9rem;
-  /* height: 9rem; */
-  /* padding-top: 2rem;
-  padding-bottom: 2rem; */
-
   overflow: hidden;
 
 }
@@ -219,7 +186,6 @@ a {
   background-color:black;
   height: auto;
   width: 100%;
-  /* min-width: 0; */
   display: block;
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -230,21 +196,50 @@ a {
 .producttext {
 
   display: flex;
-  /* flex-wrap: wrap; */
-  /* padding: 10px; */
   justify-content: center;
   align-items: center;
   border: 4px solid black;
   max-width: 30%;
   width: 30%;
   height: 2rem;
-  /* padding-top: 0.5rem;
-  padding-bottom: 0.5rem; */
-  /* height: 9rem; */
-  /* padding-top: 2rem;
-  padding-bottom: 2rem; */
   background-color: black;
-
   overflow: hidden;
+
+}
+.producttextbottom {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 4px solid black;
+  max-width: 35%;
+  width: 35%;
+  height: 2rem;
+  margin-top: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  background-color: black;
+  overflow: hidden;
+
+}
+.hourslocation {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 40%;
+  height: 2rem;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+
+}
+.footer {
+  display: flex;
+  height: 5rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 6rem;
 
 }
