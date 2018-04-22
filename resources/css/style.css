@@ -108,3 +108,13 @@ body {
 
 
 }
+.navcontainer {
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 2.82rem;
+  border: 2px solid red;
+  background-color: firebrick;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
