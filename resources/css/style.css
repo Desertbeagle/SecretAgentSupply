@@ -223,6 +223,7 @@ a {
   overflow: hidden;
 
 }
+/* hours and location */
 .hourslocation {
 
   display: flex;
@@ -235,6 +236,8 @@ a {
   overflow: hidden;
 
 }
+
+/* footer */
 .footer {
   display: flex;
   height: 5rem;
