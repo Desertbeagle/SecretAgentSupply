@@ -155,6 +155,7 @@ a {
 .productscontainer {
 
   display: flex;
+  flex-wrap: wrap;
   background-color: white;
   /* height: auto; */
   justify-content: space-between;
@@ -171,6 +172,7 @@ a {
 .product {
 
   display: flex;
+  /* flex-wrap: wrap; */
   /* padding: 10px; */
   justify-content: center;
   align-items: center;
@@ -192,6 +194,57 @@ a {
   display: block;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  overflow: hidden;
+
+}
+.productbottom {
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* padding: 10px; */
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  max-width: 35%;
+  width: 35%;
+  height: 9rem;
+  /* height: 9rem; */
+  /* padding-top: 2rem;
+  padding-bottom: 2rem; */
+
+  overflow: hidden;
+
+}
+.product span {
+  background-color:black;
+  height: auto;
+  width: 100%;
+  /* min-width: 0; */
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+
+}
+
+.producttext {
+
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* padding: 10px; */
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  max-width: 30%;
+  width: 30%;
+  height: 2rem;
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
+  /* height: 9rem; */
+  /* padding-top: 2rem;
+  padding-bottom: 2rem; */
+  background-color: black;
+
   overflow: hidden;
 
 }
