@@ -115,8 +115,19 @@ a {
 
 }
 
-.navcontainer {
+.navcontainerpc {
   display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.82rem;
+  width: 100%;
+  background-color: firebrick;
+  padding-left: 6rem;
+  padding-right: 6rem;
+
+}
+.navcontainertablet {
+  display: none;
   justify-content: space-between;
   align-items: center;
   height: 2.82rem;
@@ -244,5 +255,37 @@ a {
   justify-content: flex-start;
   align-items: center;
   margin-left: 6rem;
+
+}
+.mobile {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .logocontainer {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0rem;
+    height: 2.82rem;
+
+
+  }
+  .splashbox {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    background-color: black;
+    margin-left: 0rem;
+    margin-top: 7rem;
+
+
+  }
+  .navcontainerpc {
+    display: none;
+  }
+  .navcontainertablet {
+    display: inline-flex;
+    justify-content: center;
+  }
+
 
 }
