@@ -365,14 +365,26 @@ a {
   display: none;
 }
 
-/* footer */
-.footer {
+/* footer for pc */
+.footerpc {
   display: flex;
   height: 5rem;
   justify-content: flex-start;
   align-items: center;
   margin-left: 6rem;
 
+}
+/* footer for tablet */
+.footertablet {
+  display: flex;
+  height: 5rem;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 6rem;
+
+}
+.footertablet {
+  display: none;
 }
 
 /* media query for tablet */
@@ -409,6 +421,18 @@ a {
   .productswrappertablet {
     display: flex;
   }
+  .footerpc {
+    display: none;
+  }
+  .footertablet {
+    display: flex;
+    height: 5rem;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 0rem;
+
+  }
+
 
 
 }
