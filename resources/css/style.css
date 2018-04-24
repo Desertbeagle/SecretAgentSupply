@@ -474,7 +474,7 @@ a[href^=tel] {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 39.5%;
   height: 2rem;
   background-color: white;
   color: black;
@@ -598,6 +598,15 @@ a[href^=tel] {
     justify-content: flex-start;
     align-items: center;
     margin-left: 0rem;
+
+  }
+  .producttablet img {
+    height: auto;
+    width: 9rem;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
 
   }
 
