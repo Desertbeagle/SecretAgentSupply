@@ -733,5 +733,17 @@ a[href^=tel] {
     overflow: hidden;
 
   }
+  .hourslocationpc {
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 37.5%;
+    height: 2rem;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+
+  }
 
 }
