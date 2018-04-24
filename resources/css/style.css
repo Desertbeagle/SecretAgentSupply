@@ -745,5 +745,14 @@ a[href^=tel] {
     overflow: hidden;
 
   }
+  .productpc img {
+    height: auto;
+    width: 9.8rem;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+
+  }
 
 }
