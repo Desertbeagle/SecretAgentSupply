@@ -331,6 +331,121 @@ a {
   overflow: hidden;
 
 }
+/* Products Container phone*/
+
+
+.productswrapperphone {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  width: 100%;
+  overflow: hidden;
+}
+
+.productscontainerphone {
+
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  justify-content: center;
+  width: 77%;
+  overflow: hidden;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  overflow: hidden;
+
+}
+.productphone {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  max-width: 90%;
+  width: 90%;
+  height: 9rem;
+  overflow: hidden;
+
+}
+.productphone img {
+  height: auto;
+  width: 7rem;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+
+}
+.productbottomphone {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  max-width: 35%;
+  width: 35%;
+  height: 9rem;
+  overflow: hidden;
+
+}
+.productphone span {
+  background-color:black;
+  height: auto;
+  width: 100%;
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  overflow: hidden;
+
+}
+
+.producttextphone {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  max-width: 90%;
+  width: 90%;
+  height: 2rem;
+  background-color: black;
+  overflow: hidden;
+
+}
+.producttextbottomphonegeo {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 4px solid black;
+  max-width: 90%;
+  width: 90%;
+  height: 2rem;
+  margin-top: 3rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0rem;
+  background-color: black;
+  overflow: hidden;
+
+}
+.producttextbottomphonehours {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 4px solid black;
+  max-width: 90%;
+  width: 90%;
+  height: 2rem;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0rem;
+  background-color: black;
+  overflow: hidden;
+
+}
 
 
 
@@ -354,7 +469,32 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  width: 40%;
+  width: 35%;
+  height: 2rem;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+
+}
+/* hours and location for phone */
+.hourslocationphonegeo {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  height: 2rem;
+  background-color: white;
+  color: black;
+  overflow: hidden;
+
+}
+.hourslocationphonehours {
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
   height: 2rem;
   background-color: white;
   color: black;
@@ -362,6 +502,9 @@ a {
 
 }
 .productswrappertablet {
+  display: none;
+}
+.productswrapperphone {
   display: none;
 }
 
@@ -383,7 +526,19 @@ a {
   margin-left: 6rem;
 
 }
+/* footer for phone */
+.footerphone {
+  display: flex;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 6rem; */
+
+}
 .footertablet {
+  display: none;
+}
+.footerphone {
   display: none;
 }
 
@@ -418,6 +573,9 @@ a {
   .productswrapperpc {
     display: none;
   }
+  .productswrapperphone {
+    display: none;
+  }
   .productswrappertablet {
     display: flex;
   }
@@ -432,6 +590,116 @@ a {
     margin-left: 0rem;
 
   }
+
+
+
+}
+@media only screen and (max-width: 470px) {
+  .productswrapperpc {
+    display: none;
+  }
+  .productswrappertablet {
+    display: none;
+  }
+  .productswrapperphone {
+    display: flex;
+  }
+
+  .logocontainer {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0rem;
+    height: 2.82rem;
+
+
+  }
+  .splashcontainer {
+    display: flex;
+
+    align-items: center;
+    height: 15rem;
+    width: 100%;
+    background-image: url("../images/moto.jpeg");
+    background-size: cover;
+    background-position: center;
+
+  }
+  .splashbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+    margin-left: 0rem;
+    margin-top: 10rem;
+
+
+  }
+  .navcontainerpc {
+    display: none;
+  }
+  .splashboxsmallheader {
+
+    font-size:  0.77rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 0.25rem;
+    text-transform: uppercase;
+
+
+  }
+  .splashboxlargeheader {
+
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+
+  }
+  .splashboxlargeheader2 {
+
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+
+
+  }
+  .productphone {
+  order: 1;
+  }
+  .producttextphone {
+    order: 2;
+  }
+  .producttextbottomphonegeo {
+    order: 3;
+  }
+  .hourslocationphonegeo {
+    order: 4;
+  }
+  .producttextbottomphonehours {
+    order: 5;
+  }
+  .hourslocationphonehours {
+    order: 6;
+  }
+
+  .footerpc {
+    display: none;
+
+  }
+  .footertablet {
+    display: none;
+  }
+  .footerphone {
+    display: flex;
+    text-align: center;
+  }
+
+
 
 
 
