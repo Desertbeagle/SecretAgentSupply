@@ -652,7 +652,7 @@ a[href^=tel] {
     font-size:  0.77rem;
     font-weight: bold;
     margin-top: 1rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     margin-bottom: 0.25rem;
     text-transform: uppercase;
 
@@ -673,7 +673,7 @@ a[href^=tel] {
     font-size: 1rem;
     font-weight: bold;
     margin-left: 1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     text-transform: uppercase;
 
 
@@ -712,4 +712,13 @@ a[href^=tel] {
     color: inherit;
     text-decoration: none;
   }
+}
+@media only screen and (min-width: 1600px) {
+  .sitecontainer {
+    width: 100%;
+  }
+  .hourslocationpc {
+    width: 38%;
+  }
+
 }
