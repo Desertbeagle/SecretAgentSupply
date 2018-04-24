@@ -397,6 +397,7 @@ a {
   margin-bottom: 2rem;
   overflow: hidden;
 
+
 }
 
 .producttextphone {
@@ -475,7 +476,11 @@ a {
   color: black;
   overflow: hidden;
 
+
+
 }
+
+
 /* hours and location for phone */
 .hourslocationphonegeo {
 
@@ -579,6 +584,7 @@ a {
   .productswrappertablet {
     display: flex;
   }
+
   .footerpc {
     display: none;
   }
